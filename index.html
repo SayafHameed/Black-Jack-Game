@@ -1,0 +1,23 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()">NEW CARD</button>
+        <p id="player-el"></p>
+        <div class="rules">
+            <h2 id="rules-heading">Rules</h2>
+            <ul>
+                <li  class="rule-items">If sum is less than 21 you can put the new card.</li>
+                <li class="rule-items">If sum is equal to 21, You got the blackjack.</li>
+                <li class="rule-items">If sum is greater than 21 you will out of game</li>
+            </ul>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
